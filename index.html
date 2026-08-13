@@ -3,9 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weston Buick GMC</title>
+<title>Weston Buick GMC Digital Card</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+}
+.card {
+  max-width: 430px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,.15);
+}
+.header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.header p {
+  margin: 8px 0 0;
+  color: #ddd;
+  font-size: 18px;
+}
+.content {
+  padding: 25px;
+}
+.button {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button:hover {
+  opacity: .85;
+}
+.review {
+  background: #d6a800;
+  color: #111;
+}
+.footer {
+  text-align: center;
+  padding: 5px 20px 25px;
+  color: #777;
+  font-size: 13px;
+}
+</style>
 </head>
 <body>
-<h1>Weston Buick GMC</h1>
+<div class="card">
+  <div class="header">
+    <h1>Weston Buick GMC</h1>
+    <p>Digital Business Card</p>
+  </div>
+  <div class="content">
+    <a class="button" href="tel:">
+      📞 Call
+    </a>
+    <a class="button" href="sms:">
+      💬 Text
+    </a>
+    <a class="button" href="mailto:">
+      ✉️ Email
+    </a>
+    <a class="button" href="facetime:">
+      🎥 FaceTime
+    </a>
+    <a class="button" href="#">
+      👤 Save Contact
+    </a>
+    <a class="button review" href="#">
+      ⭐ Leave a Review
+    </a>
+  </div>
+  <div class="footer">
+    Weston Buick GMC
+  </div>
+</div>
 </body>
 </html>
