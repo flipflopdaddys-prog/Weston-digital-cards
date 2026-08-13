@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kaufman;Gary;;;
+FN:Gary Kaufman
+ORG:Weston Buick GMC
+TITLE:Service Consultant
+TEL;TYPE=WORK,VOICE:+15036652166
+X-ABLabel:Work
+NOTE:Extension 2113
+EMAIL;TYPE=INTERNET:gkaufman@buyweston.com
+END:VCARD
